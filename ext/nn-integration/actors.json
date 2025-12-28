@@ -1,0 +1,352 @@
+[
+  {
+    "id": "s1",
+    "name": "Raw Materials Co",
+    "type": "supplier",
+    "capacities": [
+      {
+        "type": "storage",
+        "value": 10000,
+        "unit": "kg"
+      },
+      {
+        "type": "production",
+        "value": 500,
+        "unit": "kg/day"
+      }
+    ],
+    "pricingRules": [
+      {
+        "id": "pr1",
+        "name": "Bulk Pricing",
+        "type": "tiered",
+        "tiers": [
+          { "minQuantity": 0, "maxQuantity": 100, "price": 10 },
+          { "minQuantity": 100, "maxQuantity": 500, "price": 9 },
+          { "minQuantity": 500, "price": 8 }
+        ]
+      }
+    ],
+    "cooperativeMemberships": [],
+    "rawMaterialTypes": ["steel", "aluminum", "copper"],
+    "location": "North America",
+    "certifications": ["ISO9001", "ISO14001"]
+  },
+  {
+    "id": "s2",
+    "name": "Organic Suppliers Ltd",
+    "type": "supplier",
+    "capacities": [
+      {
+        "type": "storage",
+        "value": 5000,
+        "unit": "kg"
+      },
+      {
+        "type": "production",
+        "value": 300,
+        "unit": "kg/day"
+      }
+    ],
+    "pricingRules": [
+      {
+        "id": "pr2",
+        "name": "Fixed Price",
+        "type": "fixed",
+        "basePrice": 15
+      }
+    ],
+    "cooperativeMemberships": [
+      {
+        "cooperativeId": "coop1",
+        "level": "primary",
+        "joinedAt": "2023-01-15"
+      }
+    ],
+    "rawMaterialTypes": ["organic_cotton", "bamboo", "hemp"],
+    "location": "Europe",
+    "certifications": ["Organic", "FairTrade"]
+  },
+  {
+    "id": "s3",
+    "name": "Advanced Materials Inc",
+    "type": "supplier",
+    "capacities": [
+      {
+        "type": "storage",
+        "value": 8000,
+        "unit": "kg"
+      },
+      {
+        "type": "production",
+        "value": 400,
+        "unit": "kg/day"
+      }
+    ],
+    "pricingRules": [
+      {
+        "id": "pr3",
+        "name": "Premium Pricing",
+        "type": "percentage",
+        "percentage": 25
+      }
+    ],
+    "cooperativeMemberships": [],
+    "rawMaterialTypes": ["carbon_fiber", "titanium", "graphene"],
+    "location": "Asia",
+    "certifications": ["ISO9001", "RoHS"]
+  },
+  {
+    "id": "p1",
+    "name": "Manufacturing Inc",
+    "type": "producer",
+    "capacities": [
+      {
+        "type": "production",
+        "value": 1000,
+        "unit": "units/day"
+      },
+      {
+        "type": "storage",
+        "value": 15000,
+        "unit": "units"
+      }
+    ],
+    "pricingRules": [
+      {
+        "id": "pr4",
+        "name": "Production Pricing",
+        "type": "fixed",
+        "basePrice": 50
+      }
+    ],
+    "cooperativeMemberships": [],
+    "productionCapacity": 1000,
+    "productTypes": ["electronics", "appliances"],
+    "location": "North America",
+    "certifications": ["ISO9001", "UL"]
+  },
+  {
+    "id": "p2",
+    "name": "EcoProduction Ltd",
+    "type": "producer",
+    "capacities": [
+      {
+        "type": "production",
+        "value": 600,
+        "unit": "units/day"
+      },
+      {
+        "type": "storage",
+        "value": 8000,
+        "unit": "units"
+      }
+    ],
+    "pricingRules": [
+      {
+        "id": "pr5",
+        "name": "Eco Pricing",
+        "type": "tiered",
+        "tiers": [
+          { "minQuantity": 0, "maxQuantity": 50, "price": 60 },
+          { "minQuantity": 50, "maxQuantity": 200, "price": 55 },
+          { "minQuantity": 200, "price": 50 }
+        ]
+      }
+    ],
+    "cooperativeMemberships": [
+      {
+        "cooperativeId": "coop1",
+        "level": "primary",
+        "joinedAt": "2023-03-01"
+      }
+    ],
+    "productionCapacity": 600,
+    "productTypes": ["textiles", "clothing"],
+    "location": "Europe",
+    "certifications": ["Organic", "GOTS", "FairTrade"]
+  },
+  {
+    "id": "d1",
+    "name": "Fast Logistics",
+    "type": "distributor",
+    "capacities": [
+      {
+        "type": "transport",
+        "value": 20000,
+        "unit": "kg"
+      },
+      {
+        "type": "storage",
+        "value": 30000,
+        "unit": "kg"
+      }
+    ],
+    "pricingRules": [
+      {
+        "id": "pr6",
+        "name": "Delivery Pricing",
+        "type": "fixed",
+        "basePrice": 5
+      }
+    ],
+    "cooperativeMemberships": [],
+    "coverageArea": ["North America", "Europe"],
+    "transportCapacity": 20000,
+    "location": "North America",
+    "certifications": ["ISO9001"]
+  },
+  {
+    "id": "d2",
+    "name": "Global Distribution Network",
+    "type": "distributor",
+    "capacities": [
+      {
+        "type": "transport",
+        "value": 35000,
+        "unit": "kg"
+      },
+      {
+        "type": "storage",
+        "value": 50000,
+        "unit": "kg"
+      }
+    ],
+    "pricingRules": [
+      {
+        "id": "pr7",
+        "name": "Global Pricing",
+        "type": "tiered",
+        "tiers": [
+          { "minQuantity": 0, "maxQuantity": 1000, "price": 7 },
+          { "minQuantity": 1000, "maxQuantity": 5000, "price": 6 },
+          { "minQuantity": 5000, "price": 5 }
+        ]
+      }
+    ],
+    "cooperativeMemberships": [],
+    "coverageArea": ["Global"],
+    "transportCapacity": 35000,
+    "location": "Asia",
+    "certifications": ["ISO9001", "ISO14001"]
+  },
+  {
+    "id": "w1",
+    "name": "Regional Wholesaler",
+    "type": "wholesaler",
+    "capacities": [
+      {
+        "type": "storage",
+        "value": 25000,
+        "unit": "units"
+      }
+    ],
+    "pricingRules": [
+      {
+        "id": "pr8",
+        "name": "Wholesale Markup",
+        "type": "percentage",
+        "percentage": 20
+      }
+    ],
+    "cooperativeMemberships": [],
+    "serviceArea": ["North America"],
+    "location": "North America",
+    "certifications": []
+  },
+  {
+    "id": "r1",
+    "name": "Retail Store Network",
+    "type": "retailer",
+    "capacities": [
+      {
+        "type": "shelf_space",
+        "value": 500,
+        "unit": "sqm"
+      },
+      {
+        "type": "storage",
+        "value": 5000,
+        "unit": "units"
+      }
+    ],
+    "pricingRules": [
+      {
+        "id": "pr9",
+        "name": "Retail Markup",
+        "type": "percentage",
+        "percentage": 30
+      }
+    ],
+    "cooperativeMemberships": [
+      {
+        "cooperativeId": "coop1",
+        "level": "primary",
+        "joinedAt": "2023-03-20"
+      }
+    ],
+    "storefront": "both",
+    "serviceArea": ["North America"],
+    "location": "North America",
+    "certifications": []
+  },
+  {
+    "id": "r2",
+    "name": "Online Retail Platform",
+    "type": "retailer",
+    "capacities": [
+      {
+        "type": "digital",
+        "value": 100000,
+        "unit": "listings"
+      },
+      {
+        "type": "fulfillment",
+        "value": 10000,
+        "unit": "orders/day"
+      }
+    ],
+    "pricingRules": [
+      {
+        "id": "pr10",
+        "name": "Platform Fee",
+        "type": "percentage",
+        "percentage": 15
+      }
+    ],
+    "cooperativeMemberships": [],
+    "storefront": "online",
+    "serviceArea": ["Global"],
+    "location": "Global",
+    "certifications": ["PCI-DSS"]
+  },
+  {
+    "id": "m1",
+    "name": "B2B Marketplace",
+    "type": "marketplace",
+    "capacities": [
+      {
+        "type": "listings",
+        "value": 500000,
+        "unit": "products"
+      },
+      {
+        "type": "transactions",
+        "value": 50000,
+        "unit": "per_month"
+      }
+    ],
+    "pricingRules": [
+      {
+        "id": "pr11",
+        "name": "Commission",
+        "type": "percentage",
+        "percentage": 10
+      }
+    ],
+    "cooperativeMemberships": [],
+    "serviceArea": ["Global"],
+    "location": "Global",
+    "certifications": ["ISO27001", "SOC2"]
+  }
+]

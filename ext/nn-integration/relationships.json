@@ -1,0 +1,198 @@
+[
+  {
+    "id": "rel1",
+    "fromActorId": "s1",
+    "toActorId": "p1",
+    "type": "supplies",
+    "status": "active",
+    "contractTerms": {
+      "startDate": "2023-01-01",
+      "endDate": "2025-12-31",
+      "paymentTerms": "Net 30",
+      "deliveryTerms": "FOB Origin"
+    }
+  },
+  {
+    "id": "rel2",
+    "fromActorId": "s2",
+    "toActorId": "p1",
+    "type": "supplies",
+    "status": "active",
+    "contractTerms": {
+      "startDate": "2023-06-01",
+      "endDate": "2024-12-31",
+      "paymentTerms": "Net 15",
+      "deliveryTerms": "CIF"
+    }
+  },
+  {
+    "id": "rel3",
+    "fromActorId": "s2",
+    "toActorId": "p2",
+    "type": "supplies",
+    "status": "active",
+    "contractTerms": {
+      "startDate": "2023-02-01",
+      "endDate": "2025-06-30",
+      "paymentTerms": "Net 15",
+      "deliveryTerms": "CIF"
+    }
+  },
+  {
+    "id": "rel4",
+    "fromActorId": "s3",
+    "toActorId": "p1",
+    "type": "supplies",
+    "status": "active",
+    "contractTerms": {
+      "startDate": "2023-09-01",
+      "endDate": "2026-08-31",
+      "paymentTerms": "Net 45",
+      "deliveryTerms": "DDP"
+    }
+  },
+  {
+    "id": "rel5",
+    "fromActorId": "p1",
+    "toActorId": "d1",
+    "type": "produces_for",
+    "status": "active",
+    "contractTerms": {
+      "startDate": "2023-01-15",
+      "paymentTerms": "Net 45",
+      "deliveryTerms": "DDP"
+    }
+  },
+  {
+    "id": "rel6",
+    "fromActorId": "p1",
+    "toActorId": "d2",
+    "type": "produces_for",
+    "status": "active",
+    "contractTerms": {
+      "startDate": "2023-07-01",
+      "paymentTerms": "Net 30",
+      "deliveryTerms": "FOB"
+    }
+  },
+  {
+    "id": "rel7",
+    "fromActorId": "p2",
+    "toActorId": "d1",
+    "type": "produces_for",
+    "status": "active",
+    "contractTerms": {
+      "startDate": "2023-04-01",
+      "paymentTerms": "Net 30",
+      "deliveryTerms": "CIF"
+    }
+  },
+  {
+    "id": "rel8",
+    "fromActorId": "p2",
+    "toActorId": "d2",
+    "type": "produces_for",
+    "status": "active",
+    "contractTerms": {
+      "startDate": "2023-04-15",
+      "paymentTerms": "Net 30",
+      "deliveryTerms": "CIF"
+    }
+  },
+  {
+    "id": "rel9",
+    "fromActorId": "d1",
+    "toActorId": "w1",
+    "type": "distributes_to",
+    "status": "active",
+    "contractTerms": {
+      "startDate": "2023-02-01",
+      "paymentTerms": "Net 30",
+      "deliveryTerms": "FOB Destination"
+    }
+  },
+  {
+    "id": "rel10",
+    "fromActorId": "d1",
+    "toActorId": "r1",
+    "type": "distributes_to",
+    "status": "active",
+    "contractTerms": {
+      "startDate": "2023-02-01",
+      "paymentTerms": "Net 30",
+      "deliveryTerms": "FOB Destination"
+    }
+  },
+  {
+    "id": "rel11",
+    "fromActorId": "d2",
+    "toActorId": "r2",
+    "type": "distributes_to",
+    "status": "active",
+    "contractTerms": {
+      "startDate": "2023-08-01",
+      "paymentTerms": "Net 15",
+      "deliveryTerms": "DDP"
+    }
+  },
+  {
+    "id": "rel12",
+    "fromActorId": "d2",
+    "toActorId": "m1",
+    "type": "distributes_to",
+    "status": "active",
+    "contractTerms": {
+      "startDate": "2023-10-01",
+      "paymentTerms": "Net 30",
+      "deliveryTerms": "FOB"
+    }
+  },
+  {
+    "id": "rel13",
+    "fromActorId": "w1",
+    "toActorId": "r1",
+    "type": "sells_to",
+    "status": "active",
+    "contractTerms": {
+      "startDate": "2023-03-01",
+      "paymentTerms": "Net 15",
+      "deliveryTerms": "Local Delivery"
+    }
+  },
+  {
+    "id": "rel14",
+    "fromActorId": "w1",
+    "toActorId": "r2",
+    "type": "sells_to",
+    "status": "active",
+    "contractTerms": {
+      "startDate": "2023-11-01",
+      "paymentTerms": "Net 7",
+      "deliveryTerms": "Digital"
+    }
+  },
+  {
+    "id": "rel15",
+    "fromActorId": "p1",
+    "toActorId": "m1",
+    "type": "sells_through",
+    "status": "active",
+    "contractTerms": {
+      "startDate": "2023-05-01",
+      "paymentTerms": "Net 30",
+      "deliveryTerms": "Marketplace Managed"
+    }
+  },
+  {
+    "id": "rel16",
+    "fromActorId": "p2",
+    "toActorId": "m1",
+    "type": "sells_through",
+    "status": "active",
+    "contractTerms": {
+      "startDate": "2023-06-15",
+      "paymentTerms": "Net 30",
+      "deliveryTerms": "Marketplace Managed"
+    }
+  }
+]
