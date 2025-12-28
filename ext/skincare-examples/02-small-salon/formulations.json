@@ -1,0 +1,65 @@
+[
+  {
+    "id": "f1",
+    "name": "Hydrating Day Cream",
+    "type": "moisturizer",
+    "description": "Lightweight moisturizer for daily use",
+    "suitableFor": ["normal", "dry", "combination"],
+    "ingredients": [
+      { "name": "Hyaluronic Acid", "percentage": 2.0, "purpose": "hydration" },
+      { "name": "Glycerin", "percentage": 5.0, "purpose": "humectant" },
+      { "name": "Squalane", "percentage": 3.0, "purpose": "emollient" },
+      { "name": "Vitamin E", "percentage": 1.0, "purpose": "antioxidant" },
+      { "name": "Base Cream", "percentage": 89.0, "purpose": "vehicle" }
+    ],
+    "volume": "50ml",
+    "cost": 8.50
+  },
+  {
+    "id": "f2",
+    "name": "Gentle Cleansing Gel",
+    "type": "cleanser",
+    "description": "Sulfate-free gentle cleanser",
+    "suitableFor": ["sensitive", "dry", "normal"],
+    "ingredients": [
+      { "name": "Aloe Vera Extract", "percentage": 10.0, "purpose": "soothing" },
+      { "name": "Chamomile Extract", "percentage": 2.0, "purpose": "calming" },
+      { "name": "Mild Surfactants", "percentage": 15.0, "purpose": "cleansing" },
+      { "name": "Water Base", "percentage": 73.0, "purpose": "vehicle" }
+    ],
+    "volume": "120ml",
+    "cost": 6.00
+  },
+  {
+    "id": "f3",
+    "name": "Brightening Serum",
+    "type": "serum",
+    "description": "Vitamin C serum for brightening",
+    "suitableFor": ["all", "dull", "aging"],
+    "ingredients": [
+      { "name": "Vitamin C", "percentage": 15.0, "purpose": "brightening" },
+      { "name": "Ferulic Acid", "percentage": 0.5, "purpose": "stabilizer" },
+      { "name": "Vitamin E", "percentage": 1.0, "purpose": "antioxidant" },
+      { "name": "Hyaluronic Acid", "percentage": 1.0, "purpose": "hydration" },
+      { "name": "Serum Base", "percentage": 82.5, "purpose": "vehicle" }
+    ],
+    "volume": "30ml",
+    "cost": 12.00
+  },
+  {
+    "id": "f4",
+    "name": "Exfoliating Mask",
+    "type": "mask",
+    "description": "AHA/BHA exfoliating treatment mask",
+    "suitableFor": ["oily", "combination", "acne_prone"],
+    "ingredients": [
+      { "name": "Glycolic Acid", "percentage": 8.0, "purpose": "exfoliation" },
+      { "name": "Salicylic Acid", "percentage": 2.0, "purpose": "pore_cleansing" },
+      { "name": "Clay", "percentage": 20.0, "purpose": "absorption" },
+      { "name": "Aloe Vera", "percentage": 5.0, "purpose": "soothing" },
+      { "name": "Mask Base", "percentage": 65.0, "purpose": "vehicle" }
+    ],
+    "volume": "75ml",
+    "cost": 10.00
+  }
+]

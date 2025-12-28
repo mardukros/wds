@@ -1,0 +1,71 @@
+[
+  {
+    "id": "f1",
+    "name": "Radiance Signature Moisturizer",
+    "type": "moisturizer",
+    "description": "Proprietary franchise formula for all skin types",
+    "suitableFor": ["all", "normal", "dry", "combination"],
+    "brandOwner": "radiance_franchise",
+    "ingredients": [
+      { "name": "Hyaluronic Acid", "percentage": 2.5, "purpose": "hydration" },
+      { "name": "Peptides", "percentage": 3.0, "purpose": "anti_aging" },
+      { "name": "Niacinamide", "percentage": 4.0, "purpose": "brightening" },
+      { "name": "Botanical Extracts", "percentage": 5.0, "purpose": "soothing" },
+      { "name": "Base Cream", "percentage": 85.5, "purpose": "vehicle" }
+    ],
+    "volume": "60ml",
+    "cost": 10.00,
+    "retailPrice": 45.00
+  },
+  {
+    "id": "f2",
+    "name": "Radiance Gentle Cleanser",
+    "type": "cleanser",
+    "description": "Signature franchise cleansing formula",
+    "suitableFor": ["all", "sensitive", "normal"],
+    "brandOwner": "radiance_franchise",
+    "ingredients": [
+      { "name": "Amino Acid Complex", "percentage": 12.0, "purpose": "gentle_cleansing" },
+      { "name": "Green Tea Extract", "percentage": 3.0, "purpose": "antioxidant" },
+      { "name": "Aloe Vera", "percentage": 5.0, "purpose": "soothing" },
+      { "name": "Water Base", "percentage": 80.0, "purpose": "vehicle" }
+    ],
+    "volume": "150ml",
+    "cost": 7.00,
+    "retailPrice": 32.00
+  },
+  {
+    "id": "f3",
+    "name": "Radiance Brightening Serum",
+    "type": "serum",
+    "description": "Advanced brightening formula exclusive to franchise",
+    "suitableFor": ["all", "dull", "hyperpigmentation"],
+    "brandOwner": "radiance_franchise",
+    "ingredients": [
+      { "name": "Vitamin C", "percentage": 12.0, "purpose": "brightening" },
+      { "name": "Arbutin", "percentage": 2.0, "purpose": "melanin_inhibitor" },
+      { "name": "Hyaluronic Acid", "percentage": 1.5, "purpose": "hydration" },
+      { "name": "Serum Base", "percentage": 84.5, "purpose": "vehicle" }
+    ],
+    "volume": "30ml",
+    "cost": 14.00,
+    "retailPrice": 65.00
+  },
+  {
+    "id": "f4",
+    "name": "Radiance Eye Treatment",
+    "type": "eye_cream",
+    "description": "Specialized eye area treatment",
+    "suitableFor": ["all", "aging", "dark_circles"],
+    "brandOwner": "radiance_franchise",
+    "ingredients": [
+      { "name": "Caffeine", "percentage": 2.0, "purpose": "de_puffing" },
+      { "name": "Peptides", "percentage": 4.0, "purpose": "firming" },
+      { "name": "Vitamin K", "percentage": 1.0, "purpose": "dark_circles" },
+      { "name": "Base Cream", "percentage": 93.0, "purpose": "vehicle" }
+    ],
+    "volume": "15ml",
+    "cost": 11.00,
+    "retailPrice": 48.00
+  }
+]

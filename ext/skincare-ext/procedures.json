@@ -1,0 +1,236 @@
+[
+  {
+    "id": "proc1",
+    "salonId": "salon1",
+    "name": "Signature Facial",
+    "steps": [
+      {
+        "order": 1,
+        "name": "Cleansing",
+        "duration": 10,
+        "products": ["f3"]
+      },
+      {
+        "order": 2,
+        "name": "Exfoliation",
+        "duration": 15,
+        "products": []
+      },
+      {
+        "order": 3,
+        "name": "Steam Treatment",
+        "duration": 10,
+        "products": []
+      },
+      {
+        "order": 4,
+        "name": "Massage",
+        "duration": 20,
+        "products": ["f1"]
+      },
+      {
+        "order": 5,
+        "name": "Mask Application",
+        "duration": 15,
+        "products": []
+      },
+      {
+        "order": 6,
+        "name": "Serum & Moisturizer",
+        "duration": 10,
+        "products": ["f2", "f1"]
+      }
+    ],
+    "totalDuration": 80,
+    "basePrice": 120,
+    "skinTypes": ["all"]
+  },
+  {
+    "id": "proc2",
+    "salonId": "salon1",
+    "name": "Chemical Peel",
+    "steps": [
+      {
+        "order": 1,
+        "name": "Cleansing",
+        "duration": 10,
+        "products": ["f3"]
+      },
+      {
+        "order": 2,
+        "name": "Skin Preparation",
+        "duration": 5,
+        "products": []
+      },
+      {
+        "order": 3,
+        "name": "Peel Application",
+        "duration": 20,
+        "products": []
+      },
+      {
+        "order": 4,
+        "name": "Neutralization",
+        "duration": 10,
+        "products": []
+      },
+      {
+        "order": 5,
+        "name": "Soothing Treatment",
+        "duration": 15,
+        "products": ["f2"]
+      }
+    ],
+    "totalDuration": 60,
+    "basePrice": 180,
+    "skinTypes": ["normal", "oily", "combination"]
+  },
+  {
+    "id": "proc3",
+    "salonId": "salon2",
+    "name": "Deluxe Facial",
+    "steps": [
+      {
+        "order": 1,
+        "name": "Cleansing",
+        "duration": 10,
+        "products": ["f3"]
+      },
+      {
+        "order": 2,
+        "name": "Steam & Extraction",
+        "duration": 20,
+        "products": []
+      },
+      {
+        "order": 3,
+        "name": "LED Light Therapy",
+        "duration": 15,
+        "products": []
+      },
+      {
+        "order": 4,
+        "name": "Facial Massage",
+        "duration": 25,
+        "products": ["f1"]
+      },
+      {
+        "order": 5,
+        "name": "Finishing Treatment",
+        "duration": 10,
+        "products": ["f2", "f1"]
+      }
+    ],
+    "totalDuration": 80,
+    "basePrice": 150,
+    "skinTypes": ["all"]
+  },
+  {
+    "id": "proc4",
+    "salonId": "salon2",
+    "name": "Relaxation Massage",
+    "steps": [
+      {
+        "order": 1,
+        "name": "Consultation",
+        "duration": 5,
+        "products": []
+      },
+      {
+        "order": 2,
+        "name": "Aromatherapy Setup",
+        "duration": 5,
+        "products": []
+      },
+      {
+        "order": 3,
+        "name": "Full Body Massage",
+        "duration": 50,
+        "products": ["f1"]
+      },
+      {
+        "order": 4,
+        "name": "Cool Down",
+        "duration": 10,
+        "products": []
+      }
+    ],
+    "totalDuration": 70,
+    "basePrice": 110,
+    "skinTypes": ["all"]
+  },
+  {
+    "id": "proc5",
+    "salonId": "salon3",
+    "name": "Anti-Aging Treatment",
+    "steps": [
+      {
+        "order": 1,
+        "name": "Deep Cleansing",
+        "duration": 15,
+        "products": ["f3"]
+      },
+      {
+        "order": 2,
+        "name": "Microdermabrasion",
+        "duration": 20,
+        "products": []
+      },
+      {
+        "order": 3,
+        "name": "Vitamin C Serum Application",
+        "duration": 10,
+        "products": ["f2"]
+      },
+      {
+        "order": 4,
+        "name": "Anti-Aging Massage",
+        "duration": 20,
+        "products": ["f4"]
+      },
+      {
+        "order": 5,
+        "name": "Collagen Mask",
+        "duration": 20,
+        "products": []
+      }
+    ],
+    "totalDuration": 85,
+    "basePrice": 200,
+    "skinTypes": ["mature", "dry"]
+  },
+  {
+    "id": "proc6",
+    "salonId": "salon3",
+    "name": "Hydration Boost",
+    "steps": [
+      {
+        "order": 1,
+        "name": "Gentle Cleansing",
+        "duration": 10,
+        "products": ["f3"]
+      },
+      {
+        "order": 2,
+        "name": "Hyaluronic Acid Treatment",
+        "duration": 15,
+        "products": ["f2"]
+      },
+      {
+        "order": 3,
+        "name": "Hydrating Mask",
+        "duration": 20,
+        "products": []
+      },
+      {
+        "order": 4,
+        "name": "Moisturizing Massage",
+        "duration": 15,
+        "products": ["f1"]
+      }
+    ],
+    "totalDuration": 60,
+    "basePrice": 95,
+    "skinTypes": ["dry", "sensitive"]
+  }
+]

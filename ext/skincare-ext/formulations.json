@@ -1,0 +1,147 @@
+[
+  {
+    "id": "f1",
+    "name": "Hydrating Moisturizer",
+    "type": "moisturizer",
+    "ingredients": [
+      {
+        "name": "water",
+        "percentage": 70,
+        "function": "base"
+      },
+      {
+        "name": "glycerin",
+        "percentage": 15,
+        "function": "humectant"
+      },
+      {
+        "name": "hyaluronic_acid",
+        "percentage": 5,
+        "function": "hydrating"
+      },
+      {
+        "name": "essential_oils",
+        "percentage": 3,
+        "function": "fragrance"
+      },
+      {
+        "name": "preservatives",
+        "percentage": 7,
+        "function": "preservation"
+      }
+    ],
+    "benefits": ["deep hydration", "skin barrier repair", "anti-aging"],
+    "skinTypes": ["dry", "normal", "combination"],
+    "basePrice": 45
+  },
+  {
+    "id": "f2",
+    "name": "Vitamin C Serum",
+    "type": "serum",
+    "ingredients": [
+      {
+        "name": "vitamin_c",
+        "percentage": 20,
+        "function": "active"
+      },
+      {
+        "name": "aloe_vera",
+        "percentage": 30,
+        "function": "soothing"
+      },
+      {
+        "name": "hyaluronic_acid",
+        "percentage": 15,
+        "function": "hydrating"
+      },
+      {
+        "name": "water",
+        "percentage": 30,
+        "function": "base"
+      },
+      {
+        "name": "preservatives",
+        "percentage": 5,
+        "function": "preservation"
+      }
+    ],
+    "benefits": ["brightening", "anti-oxidant", "collagen production"],
+    "skinTypes": ["all"],
+    "basePrice": 65
+  },
+  {
+    "id": "f3",
+    "name": "Gentle Cleanser",
+    "type": "cleanser",
+    "ingredients": [
+      {
+        "name": "water",
+        "percentage": 60,
+        "function": "base"
+      },
+      {
+        "name": "surfactants",
+        "percentage": 20,
+        "function": "cleansing"
+      },
+      {
+        "name": "chamomile_extract",
+        "percentage": 10,
+        "function": "soothing"
+      },
+      {
+        "name": "glycerin",
+        "percentage": 5,
+        "function": "moisturizing"
+      },
+      {
+        "name": "preservatives",
+        "percentage": 5,
+        "function": "preservation"
+      }
+    ],
+    "benefits": ["gentle cleansing", "maintains pH balance", "non-stripping"],
+    "skinTypes": ["sensitive", "dry", "normal"],
+    "basePrice": 28
+  },
+  {
+    "id": "f4",
+    "name": "Anti-Aging Night Cream",
+    "type": "night_cream",
+    "ingredients": [
+      {
+        "name": "retinol",
+        "percentage": 2,
+        "function": "active"
+      },
+      {
+        "name": "peptides",
+        "percentage": 8,
+        "function": "firming"
+      },
+      {
+        "name": "shea_butter",
+        "percentage": 20,
+        "function": "emollient"
+      },
+      {
+        "name": "water",
+        "percentage": 55,
+        "function": "base"
+      },
+      {
+        "name": "niacinamide",
+        "percentage": 10,
+        "function": "brightening"
+      },
+      {
+        "name": "preservatives",
+        "percentage": 5,
+        "function": "preservation"
+      }
+    ],
+    "benefits": ["reduces wrinkles", "firms skin", "overnight repair"],
+    "skinTypes": ["mature", "dry", "normal"],
+    "basePrice": 85
+  }
+]

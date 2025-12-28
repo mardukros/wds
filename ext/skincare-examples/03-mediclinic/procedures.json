@@ -1,0 +1,181 @@
+[
+  {
+    "id": "proc1",
+    "name": "Fractional CO2 Laser Resurfacing",
+    "clinicId": "clinic1",
+    "category": "laser_treatment",
+    "description": "Advanced laser treatment for deep wrinkles and scars",
+    "duration": 90,
+    "basePrice": 1200,
+    "requiresConsultation": true,
+    "requiresMedicalClearance": true,
+    "steps": [
+      { "order": 1, "name": "Medical Assessment", "duration": 15, "provider": "doctor" },
+      { "order": 2, "name": "Topical Anesthesia", "duration": 20, "provider": "nurse" },
+      { "order": 3, "name": "Laser Treatment", "duration": 45, "provider": "doctor" },
+      { "order": 4, "name": "Post-Treatment Care", "duration": 10, "provider": "nurse", "products": ["f4"] }
+    ],
+    "suitableFor": ["aging", "scarring", "sun_damaged"],
+    "contraindications": ["active_acne", "pregnancy", "recent_tan"],
+    "downtime": "7-10 days",
+    "products": ["f4"],
+    "followUpRequired": true
+  },
+  {
+    "id": "proc2",
+    "name": "Medical Grade Chemical Peel",
+    "clinicId": "clinic1",
+    "category": "chemical_peel",
+    "description": "Deep TCA peel for significant skin renewal",
+    "duration": 60,
+    "basePrice": 450,
+    "requiresConsultation": true,
+    "requiresMedicalClearance": true,
+    "steps": [
+      { "order": 1, "name": "Skin Preparation", "duration": 10, "provider": "esthetician" },
+      { "order": 2, "name": "Medical Assessment", "duration": 10, "provider": "doctor" },
+      { "order": 3, "name": "Peel Application", "duration": 25, "provider": "doctor", "products": ["f2"] },
+      { "order": 4, "name": "Neutralization", "duration": 5, "provider": "doctor" },
+      { "order": 5, "name": "Post-Peel Protocol", "duration": 10, "provider": "nurse", "products": ["f4"] }
+    ],
+    "suitableFor": ["aging", "hyperpigmentation", "acne_scarring"],
+    "contraindications": ["active_infections", "pregnancy", "immunocompromised"],
+    "downtime": "5-7 days",
+    "products": ["f2", "f4"],
+    "followUpRequired": true
+  },
+  {
+    "id": "proc3",
+    "name": "Microneedling with RF",
+    "clinicId": "clinic1",
+    "category": "device_treatment",
+    "description": "Radiofrequency microneedling for collagen induction",
+    "duration": 75,
+    "basePrice": 800,
+    "requiresConsultation": true,
+    "requiresMedicalClearance": false,
+    "steps": [
+      { "order": 1, "name": "Consultation", "duration": 10, "provider": "nurse" },
+      { "order": 2, "name": "Numbing Cream Application", "duration": 20, "provider": "nurse" },
+      { "order": 3, "name": "RF Microneedling Treatment", "duration": 35, "provider": "doctor" },
+      { "order": 4, "name": "Cooling & Recovery Gel", "duration": 10, "provider": "nurse", "products": ["f4"] }
+    ],
+    "suitableFor": ["aging", "scarring", "skin_laxity"],
+    "contraindications": ["active_acne", "metal_implants", "pregnancy"],
+    "downtime": "2-3 days",
+    "products": ["f4"],
+    "followUpRequired": false
+  },
+  {
+    "id": "proc4",
+    "name": "Medical Consultation & Custom Treatment Plan",
+    "clinicId": "clinic1",
+    "category": "consultation",
+    "description": "Comprehensive dermatology consultation with treatment planning",
+    "duration": 45,
+    "basePrice": 250,
+    "requiresConsultation": false,
+    "requiresMedicalClearance": false,
+    "steps": [
+      { "order": 1, "name": "Medical History Review", "duration": 10, "provider": "nurse" },
+      { "order": 2, "name": "Skin Analysis", "duration": 15, "provider": "doctor" },
+      { "order": 3, "name": "Treatment Planning", "duration": 15, "provider": "doctor" },
+      { "order": 4, "name": "Product Recommendations", "duration": 5, "provider": "doctor" }
+    ],
+    "suitableFor": ["all"],
+    "contraindications": [],
+    "downtime": "none",
+    "products": [],
+    "followUpRequired": false
+  },
+  {
+    "id": "proc5",
+    "name": "IPL Photofacial",
+    "clinicId": "clinic1",
+    "category": "laser_treatment",
+    "description": "Intense pulsed light for pigmentation and vascular lesions",
+    "duration": 45,
+    "basePrice": 400,
+    "requiresConsultation": true,
+    "requiresMedicalClearance": false,
+    "steps": [
+      { "order": 1, "name": "Skin Prep & Protection", "duration": 10, "provider": "nurse" },
+      { "order": 2, "name": "IPL Treatment", "duration": 25, "provider": "doctor" },
+      { "order": 3, "name": "Cooling & Post-Treatment", "duration": 10, "provider": "nurse", "products": ["f4"] }
+    ],
+    "suitableFor": ["hyperpigmentation", "rosacea", "sun_damage"],
+    "contraindications": ["dark_skin_tones", "recent_tan", "pregnancy"],
+    "downtime": "1-2 days",
+    "products": ["f4"],
+    "followUpRequired": false
+  },
+  {
+    "id": "proc6",
+    "name": "Injectable Consultation & Treatment",
+    "clinicId": "clinic1",
+    "category": "injectables",
+    "description": "Botox and dermal filler consultation and application",
+    "duration": 60,
+    "basePrice": 600,
+    "requiresConsultation": true,
+    "requiresMedicalClearance": true,
+    "steps": [
+      { "order": 1, "name": "Facial Assessment", "duration": 15, "provider": "doctor" },
+      { "order": 2, "name": "Treatment Mapping", "duration": 10, "provider": "doctor" },
+      { "order": 3, "name": "Injectable Application", "duration": 25, "provider": "doctor" },
+      { "order": 4, "name": "Post-Injection Care", "duration": 10, "provider": "nurse" }
+    ],
+    "suitableFor": ["aging", "volume_loss", "wrinkles"],
+    "contraindications": ["pregnancy", "neuromuscular_disorders", "allergies"],
+    "downtime": "minimal",
+    "products": [],
+    "followUpRequired": true,
+    "notes": "Injectable products billed separately"
+  },
+  {
+    "id": "proc7",
+    "name": "Medical Acne Treatment Program",
+    "clinicId": "clinic1",
+    "category": "medical_treatment",
+    "description": "Comprehensive medical acne management",
+    "duration": 30,
+    "basePrice": 180,
+    "requiresConsultation": false,
+    "requiresMedicalClearance": false,
+    "steps": [
+      { "order": 1, "name": "Acne Assessment", "duration": 10, "provider": "doctor" },
+      { "order": 2, "name": "Deep Cleansing", "duration": 10, "provider": "esthetician" },
+      { "order": 3, "name": "Treatment Application", "duration": 5, "provider": "doctor", "products": ["f6"] },
+      { "order": 4, "name": "Home Care Instructions", "duration": 5, "provider": "nurse" }
+    ],
+    "suitableFor": ["acne_prone", "oily"],
+    "contraindications": ["pregnancy"],
+    "downtime": "none",
+    "products": ["f6"],
+    "followUpRequired": true
+  },
+  {
+    "id": "proc8",
+    "name": "Advanced Anti-Aging Protocol",
+    "clinicId": "clinic1",
+    "category": "combination_treatment",
+    "description": "Multi-modal treatment combining multiple technologies",
+    "duration": 120,
+    "basePrice": 1500,
+    "requiresConsultation": true,
+    "requiresMedicalClearance": true,
+    "steps": [
+      { "order": 1, "name": "Medical Assessment", "duration": 15, "provider": "doctor" },
+      { "order": 2, "name": "RF Microneedling", "duration": 35, "provider": "doctor" },
+      { "order": 3, "name": "LED Light Therapy", "duration": 20, "provider": "nurse" },
+      { "order": 4, "name": "Medical-Grade Serums", "duration": 15, "provider": "esthetician", "products": ["f1", "f5"] },
+      { "order": 5, "name": "Facial Massage", "duration": 20, "provider": "esthetician" },
+      { "order": 6, "name": "Recovery Protocol", "duration": 15, "provider": "nurse", "products": ["f4"] }
+    ],
+    "suitableFor": ["aging", "mature", "multiple_concerns"],
+    "contraindications": ["active_infections", "pregnancy"],
+    "downtime": "3-5 days",
+    "products": ["f1", "f4", "f5"],
+    "followUpRequired": true
+  }
+]

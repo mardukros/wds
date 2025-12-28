@@ -1,0 +1,30 @@
+{
+  "franchiseId": "radiance_franchise",
+  "supportRelationships": {
+    "hq_to_stores": {
+      "hq1": ["store1", "store2", "store3", "store4"]
+    }
+  },
+  "proximityRelationships": {
+    "seattle_cluster": ["store1", "store2", "store4"],
+    "bellevue_cluster": ["store3"]
+  },
+  "referralNetwork": {
+    "store1": ["store2", "store3", "store4"],
+    "store2": ["store1", "store3", "store4"],
+    "store3": ["store1", "store2", "store4"],
+    "store4": ["store1", "store2", "store3"]
+  },
+  "trainingCenter": {
+    "hq1": {
+      "trainsLocations": ["store1", "store2", "store3", "store4"],
+      "programs": ["new_employee_onboarding", "advanced_techniques", "product_knowledge", "customer_service"]
+    }
+  },
+  "inventoryDistribution": {
+    "hq1": {
+      "distributesTo": ["store1", "store2", "store3", "store4"],
+      "frequency": "weekly"
+    }
+  }
+}

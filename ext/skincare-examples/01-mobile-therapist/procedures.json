@@ -1,0 +1,49 @@
+[
+  {
+    "id": "proc1",
+    "name": "Express Facial",
+    "therapistId": "mt1",
+    "description": "Quick 30-minute facial treatment",
+    "duration": 30,
+    "price": 60,
+    "steps": [
+      { "order": 1, "name": "Cleanse", "duration": 5 },
+      { "order": 2, "name": "Exfoliate", "duration": 10 },
+      { "order": 3, "name": "Mask", "duration": 10 },
+      { "order": 4, "name": "Moisturize", "duration": 5 }
+    ],
+    "suitableFor": ["normal", "dry", "combination"],
+    "products": []
+  },
+  {
+    "id": "proc2",
+    "name": "Relaxation Massage",
+    "therapistId": "mt1",
+    "description": "Swedish massage for relaxation",
+    "duration": 60,
+    "price": 90,
+    "steps": [
+      { "order": 1, "name": "Setup", "duration": 5 },
+      { "order": 2, "name": "Full Body Massage", "duration": 50 },
+      { "order": 3, "name": "Cool Down", "duration": 5 }
+    ],
+    "suitableFor": ["all"],
+    "products": ["massage_oil"]
+  },
+  {
+    "id": "proc3",
+    "name": "Mini Facial & Massage Combo",
+    "therapistId": "mt1",
+    "description": "Combined treatment for busy clients",
+    "duration": 75,
+    "price": 120,
+    "steps": [
+      { "order": 1, "name": "Facial Cleanse", "duration": 10 },
+      { "order": 2, "name": "Face Massage", "duration": 15 },
+      { "order": 3, "name": "Back Massage", "duration": 40 },
+      { "order": 4, "name": "Final Care", "duration": 10 }
+    ],
+    "suitableFor": ["all"],
+    "products": ["massage_oil"]
+  }
+]

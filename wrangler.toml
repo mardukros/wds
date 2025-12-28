@@ -1,0 +1,41 @@
+# Cloudflare Workers configuration for supply chain system
+
+name = "wodog-supply-chain"
+main = "src/worker.ts"
+compatibility_date = "2024-01-01"
+
+# KV namespaces for data storage
+[[kv_namespaces]]
+binding = "ACTORS"
+id = "your-kv-namespace-id-actors"
+
+[[kv_namespaces]]
+binding = "RELATIONSHIPS"
+id = "your-kv-namespace-id-relationships"
+
+[[kv_namespaces]]
+binding = "PRODUCTS"
+id = "your-kv-namespace-id-products"
+
+[[kv_namespaces]]
+binding = "SERVICES"
+id = "your-kv-namespace-id-services"
+
+# Durable Objects (optional, for state management)
+# [[durable_objects.bindings]]
+# name = "SUPPLY_CHAIN_STATE"
+# class_name = "SupplyChainState"
+# script_name = "wodog-supply-chain"
+
+# Environment variables
+[vars]
+ENVIRONMENT = "production"
+API_VERSION = "1.0"
+
+# Development settings
+[env.dev]
+name = "wodog-supply-chain-dev"
+
+[env.dev.vars]
+ENVIRONMENT = "development"
+API_VERSION = "1.0-dev"

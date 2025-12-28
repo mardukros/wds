@@ -1,0 +1,80 @@
+[
+  {
+    "id": "clinic1",
+    "name": "Advanced Dermatology & Aesthetics Center",
+    "type": "mediclinic",
+    "medicalDirector": "Dr. Elizabeth Morgan, MD",
+    "location": {
+      "address": "1500 Medical Plaza Drive",
+      "city": "Boston",
+      "state": "MA",
+      "country": "USA"
+    },
+    "capacities": [
+      {
+        "type": "treatment_rooms",
+        "value": 10,
+        "unit": "rooms"
+      },
+      {
+        "type": "procedure_suites",
+        "value": 3,
+        "unit": "suites"
+      },
+      {
+        "type": "medical_staff",
+        "value": 8,
+        "unit": "doctors"
+      },
+      {
+        "type": "nurses",
+        "value": 12,
+        "unit": "nurses"
+      },
+      {
+        "type": "estheticians",
+        "value": 6,
+        "unit": "therapists"
+      },
+      {
+        "type": "clients_per_day",
+        "value": 40,
+        "unit": "patients"
+      }
+    ],
+    "specialties": [
+      "medical_dermatology",
+      "cosmetic_dermatology",
+      "laser_therapy",
+      "injectables",
+      "chemical_peels",
+      "microneedling",
+      "body_contouring",
+      "anti_aging_medicine"
+    ],
+    "operatingHours": {
+      "weekdays": "7:00 AM - 8:00 PM",
+      "weekends": "9:00 AM - 5:00 PM"
+    },
+    "certifications": [
+      "board_certified_dermatologists",
+      "medical_spa_accredited",
+      "FDA_approved_devices",
+      "HIPAA_compliant",
+      "state_medical_board_licensed",
+      "laser_safety_certified"
+    ],
+    "equipment": [
+      "fractional_CO2_laser",
+      "IPL_photofacial_system",
+      "radiofrequency_microneedling",
+      "cryolipolysis_machine",
+      "ultrasound_body_sculpting",
+      "LED_light_therapy_panels",
+      "medical_grade_chemical_peel_systems",
+      "injectable_treatment_stations"
+    ],
+    "insuranceAccepted": ["Medicare", "private_insurance"],
+    "emergencyProtocols": true
+  }
+]

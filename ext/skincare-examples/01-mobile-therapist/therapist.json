@@ -1,0 +1,28 @@
+[
+  {
+    "id": "mt1",
+    "name": "Sarah's Mobile Beauty",
+    "type": "mobile_therapist",
+    "owner": "Sarah Johnson",
+    "location": {
+      "serviceArea": "Downtown Manhattan",
+      "city": "New York",
+      "state": "NY",
+      "country": "USA"
+    },
+    "capacities": [
+      {
+        "type": "clients_per_day",
+        "value": 4,
+        "unit": "clients"
+      }
+    ],
+    "specialties": ["basic_facials", "massage", "mobile_service"],
+    "operatingHours": {
+      "availability": "By appointment, Mon-Sat",
+      "hoursPerWeek": 30
+    },
+    "certifications": ["licensed_esthetician", "massage_therapy"],
+    "equipment": ["portable_bed", "basic_skincare_kit", "massage_tools"]
+  }
+]

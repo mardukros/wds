@@ -1,0 +1,101 @@
+[
+  {
+    "id": "f1",
+    "name": "Medical Grade Retinol Cream",
+    "type": "prescription_strength",
+    "description": "High-potency retinol for anti-aging",
+    "suitableFor": ["aging", "mature", "sun_damaged"],
+    "prescriptionRequired": true,
+    "ingredients": [
+      { "name": "Retinol 1%", "percentage": 1.0, "purpose": "cell_turnover" },
+      { "name": "Peptide Complex", "percentage": 3.0, "purpose": "collagen_synthesis" },
+      { "name": "Hyaluronic Acid", "percentage": 2.0, "purpose": "hydration" },
+      { "name": "Niacinamide", "percentage": 5.0, "purpose": "barrier_repair" },
+      { "name": "Pharmaceutical Base", "percentage": 89.0, "purpose": "vehicle" }
+    ],
+    "volume": "30ml",
+    "cost": 45.00
+  },
+  {
+    "id": "f2",
+    "name": "TCA Chemical Peel Solution",
+    "type": "chemical_peel",
+    "description": "Medical-grade TCA for deep exfoliation",
+    "suitableFor": ["aging", "hyperpigmentation", "acne_scarring"],
+    "prescriptionRequired": true,
+    "ingredients": [
+      { "name": "Trichloroacetic Acid 20%", "percentage": 20.0, "purpose": "deep_exfoliation" },
+      { "name": "Buffering Agents", "percentage": 5.0, "purpose": "pH_control" },
+      { "name": "Saline Base", "percentage": 75.0, "purpose": "vehicle" }
+    ],
+    "volume": "50ml",
+    "cost": 35.00
+  },
+  {
+    "id": "f3",
+    "name": "Hydroquinone Brightening Serum",
+    "type": "prescription_strength",
+    "description": "Medical-grade pigmentation corrector",
+    "suitableFor": ["hyperpigmentation", "melasma", "sun_spots"],
+    "prescriptionRequired": true,
+    "ingredients": [
+      { "name": "Hydroquinone 4%", "percentage": 4.0, "purpose": "melanin_inhibitor" },
+      { "name": "Kojic Acid", "percentage": 2.0, "purpose": "brightening" },
+      { "name": "Vitamin C", "percentage": 10.0, "purpose": "antioxidant" },
+      { "name": "Glycolic Acid", "percentage": 5.0, "purpose": "exfoliation" },
+      { "name": "Serum Base", "percentage": 79.0, "purpose": "vehicle" }
+    ],
+    "volume": "30ml",
+    "cost": 40.00
+  },
+  {
+    "id": "f4",
+    "name": "Post-Procedure Recovery Gel",
+    "type": "medical_grade",
+    "description": "Advanced healing and barrier repair",
+    "suitableFor": ["all", "post_procedure"],
+    "prescriptionRequired": false,
+    "ingredients": [
+      { "name": "Growth Factors", "percentage": 5.0, "purpose": "healing" },
+      { "name": "Centella Asiatica", "percentage": 10.0, "purpose": "soothing" },
+      { "name": "Ceramides", "percentage": 3.0, "purpose": "barrier_repair" },
+      { "name": "Panthenol", "percentage": 5.0, "purpose": "hydration" },
+      { "name": "Gel Base", "percentage": 77.0, "purpose": "vehicle" }
+    ],
+    "volume": "60ml",
+    "cost": 28.00
+  },
+  {
+    "id": "f5",
+    "name": "Clinical Vitamin C Serum",
+    "type": "medical_grade",
+    "description": "Stabilized high-concentration vitamin C",
+    "suitableFor": ["all", "aging", "dull"],
+    "prescriptionRequired": false,
+    "ingredients": [
+      { "name": "L-Ascorbic Acid 20%", "percentage": 20.0, "purpose": "antioxidant" },
+      { "name": "Vitamin E", "percentage": 2.0, "purpose": "stabilizer" },
+      { "name": "Ferulic Acid", "percentage": 1.0, "purpose": "photoprotection" },
+      { "name": "Hyaluronic Acid", "percentage": 2.0, "purpose": "hydration" },
+      { "name": "Serum Base", "percentage": 75.0, "purpose": "vehicle" }
+    ],
+    "volume": "30ml",
+    "cost": 35.00
+  },
+  {
+    "id": "f6",
+    "name": "Prescription Acne Treatment",
+    "type": "prescription_strength",
+    "description": "Medical-grade acne solution",
+    "suitableFor": ["acne_prone", "oily"],
+    "prescriptionRequired": true,
+    "ingredients": [
+      { "name": "Benzoyl Peroxide 10%", "percentage": 10.0, "purpose": "antibacterial" },
+      { "name": "Salicylic Acid", "percentage": 2.0, "purpose": "exfoliation" },
+      { "name": "Niacinamide", "percentage": 4.0, "purpose": "anti_inflammatory" },
+      { "name": "Gel Base", "percentage": 84.0, "purpose": "vehicle" }
+    ],
+    "volume": "45ml",
+    "cost": 32.00
+  }
+]

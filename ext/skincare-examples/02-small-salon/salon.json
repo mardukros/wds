@@ -1,0 +1,39 @@
+[
+  {
+    "id": "salon1",
+    "name": "Glow Skincare Studio",
+    "type": "salon",
+    "owner": "Michelle Chen",
+    "location": {
+      "address": "245 Elm Street",
+      "city": "Portland",
+      "state": "OR",
+      "country": "USA"
+    },
+    "capacities": [
+      {
+        "type": "treatment_rooms",
+        "value": 3,
+        "unit": "rooms"
+      },
+      {
+        "type": "staff",
+        "value": 4,
+        "unit": "therapists"
+      },
+      {
+        "type": "clients_per_day",
+        "value": 12,
+        "unit": "clients"
+      }
+    ],
+    "specialties": ["facials", "chemical_peels", "microdermabrasion", "skincare_consultation"],
+    "operatingHours": {
+      "weekdays": "10:00 AM - 7:00 PM",
+      "weekends": "11:00 AM - 5:00 PM"
+    },
+    "certifications": ["licensed_estheticians", "sanitation_certified"],
+    "equipment": ["steamer", "microdermabrasion_machine", "LED_light", "hot_towel_warmer"],
+    "productLine": "custom_formulated"
+  }
+]

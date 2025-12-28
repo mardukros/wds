@@ -1,0 +1,52 @@
+[
+  {
+    "id": "rel1",
+    "fromActorId": "s1",
+    "toActorId": "p1",
+    "type": "supplies",
+    "status": "active",
+    "contractTerms": {
+      "startDate": "2023-01-01",
+      "endDate": "2025-12-31",
+      "paymentTerms": "Net 30",
+      "deliveryTerms": "FOB Origin"
+    }
+  },
+  {
+    "id": "rel2",
+    "fromActorId": "s2",
+    "toActorId": "p1",
+    "type": "supplies",
+    "status": "active",
+    "contractTerms": {
+      "startDate": "2023-06-01",
+      "endDate": "2024-12-31",
+      "paymentTerms": "Net 15",
+      "deliveryTerms": "CIF"
+    }
+  },
+  {
+    "id": "rel3",
+    "fromActorId": "p1",
+    "toActorId": "d1",
+    "type": "produces_for",
+    "status": "active",
+    "contractTerms": {
+      "startDate": "2023-01-15",
+      "paymentTerms": "Net 45",
+      "deliveryTerms": "DDP"
+    }
+  },
+  {
+    "id": "rel4",
+    "fromActorId": "d1",
+    "toActorId": "r1",
+    "type": "distributes_to",
+    "status": "active",
+    "contractTerms": {
+      "startDate": "2023-02-01",
+      "paymentTerms": "Net 30",
+      "deliveryTerms": "FOB Destination"
+    }
+  }
+]

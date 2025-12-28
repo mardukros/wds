@@ -1,0 +1,130 @@
+[
+  {
+    "id": "salon1",
+    "name": "Serenity Spa Downtown",
+    "type": "salon",
+    "location": {
+      "address": "123 Main Street",
+      "city": "New York",
+      "state": "NY",
+      "country": "USA"
+    },
+    "capacities": [
+      {
+        "type": "treatment_rooms",
+        "value": 6,
+        "unit": "rooms"
+      },
+      {
+        "type": "staff",
+        "value": 8,
+        "unit": "therapists"
+      }
+    ],
+    "specialties": ["facials", "chemical_peels", "skincare_consultation"],
+    "operatingHours": {
+      "weekdays": "9:00 AM - 8:00 PM",
+      "weekends": "10:00 AM - 6:00 PM"
+    },
+    "certifications": ["dermatology_approved", "organic_certified"],
+    "cooperativeMemberships": [
+      {
+        "cooperativeId": "wellness_coop",
+        "level": "primary",
+        "joinedAt": "2022-01-15"
+      }
+    ]
+  },
+  {
+    "id": "salon2",
+    "name": "Radiance Beauty Center",
+    "type": "salon",
+    "location": {
+      "address": "456 Park Avenue",
+      "city": "Los Angeles",
+      "state": "CA",
+      "country": "USA"
+    },
+    "capacities": [
+      {
+        "type": "treatment_rooms",
+        "value": 10,
+        "unit": "rooms"
+      },
+      {
+        "type": "staff",
+        "value": 15,
+        "unit": "therapists"
+      }
+    ],
+    "specialties": ["luxury_facials", "massage_therapy", "LED_treatments", "body_treatments"],
+    "operatingHours": {
+      "weekdays": "8:00 AM - 9:00 PM",
+      "weekends": "9:00 AM - 7:00 PM"
+    },
+    "certifications": ["luxury_spa_certified", "medical_grade"],
+    "cooperativeMemberships": []
+  },
+  {
+    "id": "salon3",
+    "name": "Eternal Youth Med Spa",
+    "type": "salon",
+    "location": {
+      "address": "789 Medical Plaza",
+      "city": "Miami",
+      "state": "FL",
+      "country": "USA"
+    },
+    "capacities": [
+      {
+        "type": "treatment_rooms",
+        "value": 8,
+        "unit": "rooms"
+      },
+      {
+        "type": "staff",
+        "value": 12,
+        "unit": "therapists"
+      }
+    ],
+    "specialties": ["anti_aging", "medical_grade_treatments", "laser_therapy", "injectables"],
+    "operatingHours": {
+      "weekdays": "9:00 AM - 7:00 PM",
+      "weekends": "10:00 AM - 5:00 PM"
+    },
+    "certifications": ["medical_spa_certified", "board_certified_staff", "FDA_approved"],
+    "cooperativeMemberships": [
+      {
+        "cooperativeId": "wellness_coop",
+        "level": "primary",
+        "joinedAt": "2023-06-20"
+      }
+    ]
+  },
+  {
+    "id": "plant1",
+    "name": "Pure Formulations Lab",
+    "type": "production_plant",
+    "location": {
+      "address": "321 Industrial Way",
+      "city": "Portland",
+      "state": "OR",
+      "country": "USA"
+    },
+    "capacities": [
+      {
+        "type": "production",
+        "value": 5000,
+        "unit": "units/month"
+      },
+      {
+        "type": "storage",
+        "value": 50000,
+        "unit": "units"
+      }
+    ],
+    "productionCapability": ["moisturizers", "serums", "cleansers", "night_creams"],
+    "certifications": ["GMP_certified", "organic_certified", "cruelty_free"],
+    "cooperativeMemberships": []
+  }
+]

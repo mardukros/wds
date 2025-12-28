@@ -1,0 +1,58 @@
+{
+  "supplierToProducer": {
+    "sup1": ["prod1", "prod3"],
+    "sup2": ["prod1", "prod2"],
+    "sup3": ["prod1", "prod3"]
+  },
+  "producerToDistributor": {
+    "prod1": ["dist1", "dist2"],
+    "prod2": ["dist1", "dist3"],
+    "prod3": ["dist2"]
+  },
+  "distributorToSalon": {
+    "dist1": ["salon1", "salon2"],
+    "dist2": ["salon1", "salon3"],
+    "dist3": ["salon2"]
+  },
+  "reverseRelationships": {
+    "producerToSupplier": {
+      "prod1": ["sup1", "sup2", "sup3"],
+      "prod2": ["sup2"],
+      "prod3": ["sup1", "sup3"]
+    },
+    "distributorToProducer": {
+      "dist1": ["prod1", "prod2"],
+      "dist2": ["prod1", "prod3"],
+      "dist3": ["prod2"]
+    },
+    "salonToDistributor": {
+      "salon1": ["dist1", "dist2"],
+      "salon2": ["dist1", "dist3"],
+      "salon3": ["dist2"]
+    }
+  },
+  "productFlows": {
+    "natural_ingredients": {
+      "from": "sup1",
+      "to": ["prod1", "prod3"],
+      "productTypes": ["botanical_extracts", "natural_components"]
+    },
+    "active_compounds": {
+      "from": "sup2",
+      "to": ["prod1", "prod2"],
+      "productTypes": ["actives", "pharmaceutical_ingredients"]
+    },
+    "oils_and_aromatics": {
+      "from": "sup3",
+      "to": ["prod1", "prod3"],
+      "productTypes": ["carrier_oils", "essential_oils", "fragrances"]
+    }
+  },
+  "cooperativeRelationships": {
+    "wellness_coop": {
+      "type": "primary",
+      "members": ["salon3"],
+      "services": ["group_purchasing", "shared_marketing", "training"]
+    }
+  }
+}

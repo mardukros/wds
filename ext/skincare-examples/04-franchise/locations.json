@@ -1,0 +1,178 @@
+[
+  {
+    "id": "store1",
+    "name": "Radiance Spa & Beauty - Downtown",
+    "type": "franchise_location",
+    "franchiseId": "radiance_franchise",
+    "location": {
+      "address": "100 Main Street",
+      "city": "Seattle",
+      "state": "WA",
+      "country": "USA"
+    },
+    "manager": "Jennifer Martinez",
+    "capacities": [
+      {
+        "type": "treatment_rooms",
+        "value": 5,
+        "unit": "rooms"
+      },
+      {
+        "type": "staff",
+        "value": 6,
+        "unit": "therapists"
+      },
+      {
+        "type": "clients_per_day",
+        "value": 20,
+        "unit": "clients"
+      }
+    ],
+    "specialties": ["facials", "massage", "body_treatments", "waxing"],
+    "operatingHours": {
+      "weekdays": "9:00 AM - 9:00 PM",
+      "weekends": "10:00 AM - 7:00 PM"
+    },
+    "certifications": ["franchise_standard", "sanitation_certified"],
+    "franchiseLevel": "flagship",
+    "openingDate": "2020-01-15"
+  },
+  {
+    "id": "store2",
+    "name": "Radiance Spa & Beauty - Northgate",
+    "type": "franchise_location",
+    "franchiseId": "radiance_franchise",
+    "location": {
+      "address": "2500 Northgate Way",
+      "city": "Seattle",
+      "state": "WA",
+      "country": "USA"
+    },
+    "manager": "David Kim",
+    "capacities": [
+      {
+        "type": "treatment_rooms",
+        "value": 4,
+        "unit": "rooms"
+      },
+      {
+        "type": "staff",
+        "value": 5,
+        "unit": "therapists"
+      },
+      {
+        "type": "clients_per_day",
+        "value": 16,
+        "unit": "clients"
+      }
+    ],
+    "specialties": ["facials", "massage", "skincare_consultation"],
+    "operatingHours": {
+      "weekdays": "10:00 AM - 8:00 PM",
+      "weekends": "11:00 AM - 6:00 PM"
+    },
+    "certifications": ["franchise_standard", "sanitation_certified"],
+    "franchiseLevel": "standard",
+    "openingDate": "2021-06-01"
+  },
+  {
+    "id": "store3",
+    "name": "Radiance Spa & Beauty - Bellevue",
+    "type": "franchise_location",
+    "franchiseId": "radiance_franchise",
+    "location": {
+      "address": "450 Bellevue Square",
+      "city": "Bellevue",
+      "state": "WA",
+      "country": "USA"
+    },
+    "manager": "Sarah Thompson",
+    "capacities": [
+      {
+        "type": "treatment_rooms",
+        "value": 6,
+        "unit": "rooms"
+      },
+      {
+        "type": "staff",
+        "value": 8,
+        "unit": "therapists"
+      },
+      {
+        "type": "clients_per_day",
+        "value": 24,
+        "unit": "clients"
+      }
+    ],
+    "specialties": ["luxury_facials", "massage", "body_treatments", "couples_services"],
+    "operatingHours": {
+      "weekdays": "9:00 AM - 10:00 PM",
+      "weekends": "9:00 AM - 8:00 PM"
+    },
+    "certifications": ["franchise_standard", "luxury_spa_certified", "sanitation_certified"],
+    "franchiseLevel": "premium",
+    "openingDate": "2022-03-10"
+  },
+  {
+    "id": "store4",
+    "name": "Radiance Spa & Beauty - Capitol Hill",
+    "type": "franchise_location",
+    "franchiseId": "radiance_franchise",
+    "location": {
+      "address": "750 Broadway Ave E",
+      "city": "Seattle",
+      "state": "WA",
+      "country": "USA"
+    },
+    "manager": "Alex Rodriguez",
+    "capacities": [
+      {
+        "type": "treatment_rooms",
+        "value": 3,
+        "unit": "rooms"
+      },
+      {
+        "type": "staff",
+        "value": 4,
+        "unit": "therapists"
+      },
+      {
+        "type": "clients_per_day",
+        "value": 12,
+        "unit": "clients"
+      }
+    ],
+    "specialties": ["facials", "massage", "express_services"],
+    "operatingHours": {
+      "weekdays": "11:00 AM - 8:00 PM",
+      "weekends": "12:00 PM - 6:00 PM"
+    },
+    "certifications": ["franchise_standard", "sanitation_certified"],
+    "franchiseLevel": "express",
+    "openingDate": "2023-09-20"
+  },
+  {
+    "id": "hq1",
+    "name": "Radiance Spa & Beauty Corporate HQ",
+    "type": "corporate_headquarters",
+    "franchiseId": "radiance_franchise",
+    "location": {
+      "address": "1000 Corporate Plaza",
+      "city": "Seattle",
+      "state": "WA",
+      "country": "USA"
+    },
+    "services": [
+      "franchise_support",
+      "product_distribution",
+      "training_programs",
+      "marketing_coordination",
+      "inventory_management"
+    ],
+    "staff": {
+      "corporate_team": 15,
+      "trainers": 3,
+      "product_managers": 2
+    }
+  }
+]

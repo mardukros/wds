@@ -1,0 +1,93 @@
+[
+  {
+    "id": "proc1",
+    "name": "Classic Facial",
+    "salonId": "salon1",
+    "description": "Complete facial treatment for all skin types",
+    "duration": 60,
+    "basePrice": 85,
+    "steps": [
+      { "order": 1, "name": "Consultation", "duration": 5 },
+      { "order": 2, "name": "Double Cleanse", "duration": 8, "products": ["f2"] },
+      { "order": 3, "name": "Steam & Extraction", "duration": 15 },
+      { "order": 4, "name": "Exfoliating Mask", "duration": 12, "products": ["f4"] },
+      { "order": 5, "name": "Facial Massage", "duration": 10 },
+      { "order": 6, "name": "Serum Application", "duration": 5, "products": ["f3"] },
+      { "order": 7, "name": "Moisturize & SPF", "duration": 5, "products": ["f1"] }
+    ],
+    "suitableFor": ["all"],
+    "products": ["f1", "f2", "f3", "f4"]
+  },
+  {
+    "id": "proc2",
+    "name": "Express Glow Facial",
+    "salonId": "salon1",
+    "description": "Quick 30-minute brightening facial",
+    "duration": 30,
+    "basePrice": 55,
+    "steps": [
+      { "order": 1, "name": "Cleanse", "duration": 5, "products": ["f2"] },
+      { "order": 2, "name": "Exfoliate", "duration": 8, "products": ["f4"] },
+      { "order": 3, "name": "Brightening Serum", "duration": 7, "products": ["f3"] },
+      { "order": 4, "name": "Hydrate & Protect", "duration": 10, "products": ["f1"] }
+    ],
+    "suitableFor": ["all", "dull"],
+    "products": ["f1", "f2", "f3", "f4"]
+  },
+  {
+    "id": "proc3",
+    "name": "Deep Cleansing Treatment",
+    "salonId": "salon1",
+    "description": "Intensive treatment for oily and acne-prone skin",
+    "duration": 75,
+    "basePrice": 95,
+    "steps": [
+      { "order": 1, "name": "Consultation", "duration": 5 },
+      { "order": 2, "name": "Deep Cleanse", "duration": 10, "products": ["f2"] },
+      { "order": 3, "name": "Steam Treatment", "duration": 10 },
+      { "order": 4, "name": "Extractions", "duration": 20 },
+      { "order": 5, "name": "Purifying Mask", "duration": 15, "products": ["f4"] },
+      { "order": 6, "name": "LED Light Therapy", "duration": 10 },
+      { "order": 7, "name": "Final Hydration", "duration": 5, "products": ["f1"] }
+    ],
+    "suitableFor": ["oily", "acne_prone"],
+    "products": ["f1", "f2", "f4"]
+  },
+  {
+    "id": "proc4",
+    "name": "Hydration Boost Facial",
+    "salonId": "salon1",
+    "description": "Intense hydration for dry and dehydrated skin",
+    "duration": 60,
+    "basePrice": 90,
+    "steps": [
+      { "order": 1, "name": "Gentle Cleanse", "duration": 5, "products": ["f2"] },
+      { "order": 2, "name": "Hydrating Serum Layer", "duration": 10, "products": ["f3"] },
+      { "order": 3, "name": "Sheet Mask", "duration": 20 },
+      { "order": 4, "name": "Facial Massage", "duration": 15 },
+      { "order": 5, "name": "Rich Moisturizer", "duration": 10, "products": ["f1"] }
+    ],
+    "suitableFor": ["dry", "dehydrated"],
+    "products": ["f1", "f2", "f3"]
+  },
+  {
+    "id": "proc5",
+    "name": "Anti-Aging Rejuvenation",
+    "salonId": "salon1",
+    "description": "Comprehensive anti-aging treatment",
+    "duration": 90,
+    "basePrice": 120,
+    "steps": [
+      { "order": 1, "name": "Consultation", "duration": 5 },
+      { "order": 2, "name": "Double Cleanse", "duration": 8, "products": ["f2"] },
+      { "order": 3, "name": "Enzyme Exfoliation", "duration": 10 },
+      { "order": 4, "name": "Microdermabrasion", "duration": 20 },
+      { "order": 5, "name": "Anti-Aging Serum", "duration": 10, "products": ["f3"] },
+      { "order": 6, "name": "Lifting Massage", "duration": 20 },
+      { "order": 7, "name": "LED Red Light", "duration": 12 },
+      { "order": 8, "name": "Final Treatment", "duration": 5, "products": ["f1"] }
+    ],
+    "suitableFor": ["aging", "mature"],
+    "products": ["f1", "f2", "f3"]
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "id": "proc1",
+    "name": "Radiance Signature Facial",
+    "franchiseStandard": true,
+    "availableAt": ["store1", "store2", "store3", "store4"],
+    "description": "Signature 60-minute facial treatment",
+    "duration": 60,
+    "basePrice": 95,
+    "steps": [
+      { "order": 1, "name": "Consultation", "duration": 5 },
+      { "order": 2, "name": "Double Cleanse", "duration": 8, "products": ["f2"] },
+      { "order": 3, "name": "Exfoliation", "duration": 10 },
+      { "order": 4, "name": "Steam & Extraction", "duration": 12 },
+      { "order": 5, "name": "Facial Massage", "duration": 15 },
+      { "order": 6, "name": "Serum Application", "duration": 5, "products": ["f3"] },
+      { "order": 7, "name": "Moisturize & Eye Treatment", "duration": 5, "products": ["f1", "f4"] }
+    ],
+    "suitableFor": ["all"],
+    "products": ["f1", "f2", "f3", "f4"]
+  },
+  {
+    "id": "proc2",
+    "name": "Express Radiance Facial",
+    "franchiseStandard": true,
+    "availableAt": ["store1", "store2", "store3", "store4"],
+    "description": "Quick 30-minute facial for busy clients",
+    "duration": 30,
+    "basePrice": 55,
+    "steps": [
+      { "order": 1, "name": "Quick Cleanse", "duration": 5, "products": ["f2"] },
+      { "order": 2, "name": "Exfoliation", "duration": 8 },
+      { "order": 3, "name": "Brightening Serum", "duration": 7, "products": ["f3"] },
+      { "order": 4, "name": "Moisturize", "duration": 10, "products": ["f1"] }
+    ],
+    "suitableFor": ["all"],
+    "products": ["f1", "f2", "f3"]
+  },
+  {
+    "id": "proc3",
+    "name": "Radiance Deluxe Treatment",
+    "franchiseStandard": false,
+    "availableAt": ["store1", "store3"],
+    "description": "Premium 90-minute comprehensive treatment (flagship & premium only)",
+    "duration": 90,
+    "basePrice": 150,
+    "steps": [
+      { "order": 1, "name": "Comprehensive Consultation", "duration": 10 },
+      { "order": 2, "name": "Deep Cleanse", "duration": 10, "products": ["f2"] },
+      { "order": 3, "name": "Professional Exfoliation", "duration": 15 },
+      { "order": 4, "name": "Steam Treatment", "duration": 10 },
+      { "order": 5, "name": "Extractions", "duration": 15 },
+      { "order": 6, "name": "Specialized Mask", "duration": 15 },
+      { "order": 7, "name": "Extended Massage", "duration": 20 },
+      { "order": 8, "name": "Serum Layering", "duration": 10, "products": ["f3"] },
+      { "order": 9, "name": "Final Treatment", "duration": 5, "products": ["f1", "f4"] }
+    ],
+    "suitableFor": ["all"],
+    "products": ["f1", "f2", "f3", "f4"]
+  },
+  {
+    "id": "proc4",
+    "name": "Couples Radiance Experience",
+    "franchiseStandard": false,
+    "availableAt": ["store3"],
+    "description": "Side-by-side couples treatment (premium location only)",
+    "duration": 75,
+    "basePrice": 220,
+    "requiresTwoRooms": true,
+    "steps": [
+      { "order": 1, "name": "Welcome & Consultation", "duration": 10 },
+      { "order": 2, "name": "Synchronized Facial", "duration": 50 },
+      { "order": 3, "name": "Hand & Arm Massage", "duration": 10 },
+      { "order": 4, "name": "Final Relaxation", "duration": 5 }
+    ],
+    "suitableFor": ["all"],
+    "products": ["f1", "f2", "f3"],
+    "notes": "Price is per couple"
+  },
+  {
+    "id": "proc5",
+    "name": "Back Facial Treatment",
+    "franchiseStandard": true,
+    "availableAt": ["store1", "store2", "store3", "store4"],
+    "description": "Deep cleansing back treatment",
+    "duration": 45,
+    "basePrice": 75,
+    "steps": [
+      { "order": 1, "name": "Back Cleanse", "duration": 8, "products": ["f2"] },
+      { "order": 2, "name": "Exfoliation", "duration": 12 },
+      { "order": 3, "name": "Steam & Extraction", "duration": 15 },
+      { "order": 4, "name": "Treatment Mask", "duration": 15 },
+      { "order": 5, "name": "Moisturize", "duration": 5, "products": ["f1"] }
+    ],
+    "suitableFor": ["oily", "acne_prone", "all"],
+    "products": ["f1", "f2"]
+  }
+]

@@ -1,0 +1,131 @@
+[
+  {
+    "id": "s1",
+    "name": "Raw Materials Co",
+    "type": "supplier",
+    "capacities": [
+      {
+        "type": "storage",
+        "value": 10000,
+        "unit": "kg"
+      }
+    ],
+    "pricingRules": [
+      {
+        "id": "pr1",
+        "name": "Bulk Pricing",
+        "type": "tiered",
+        "tiers": [
+          { "minQuantity": 0, "maxQuantity": 100, "price": 10 },
+          { "minQuantity": 100, "maxQuantity": 500, "price": 9 },
+          { "minQuantity": 500, "price": 8 }
+        ]
+      }
+    ],
+    "cooperativeMemberships": [],
+    "rawMaterialTypes": ["steel", "aluminum", "copper"]
+  },
+  {
+    "id": "s2",
+    "name": "Organic Suppliers Ltd",
+    "type": "supplier",
+    "capacities": [
+      {
+        "type": "storage",
+        "value": 5000,
+        "unit": "kg"
+      }
+    ],
+    "pricingRules": [
+      {
+        "id": "pr2",
+        "name": "Fixed Price",
+        "type": "fixed",
+        "basePrice": 15
+      }
+    ],
+    "cooperativeMemberships": [
+      {
+        "cooperativeId": "coop1",
+        "level": "primary",
+        "joinedAt": "2023-01-15"
+      }
+    ],
+    "rawMaterialTypes": ["organic_cotton", "bamboo", "hemp"]
+  },
+  {
+    "id": "p1",
+    "name": "Manufacturing Inc",
+    "type": "producer",
+    "capacities": [
+      {
+        "type": "production",
+        "value": 1000,
+        "unit": "units/day"
+      }
+    ],
+    "pricingRules": [
+      {
+        "id": "pr3",
+        "name": "Production Pricing",
+        "type": "fixed",
+        "basePrice": 50
+      }
+    ],
+    "cooperativeMemberships": [],
+    "productionCapacity": 1000,
+    "productTypes": ["electronics", "appliances"]
+  },
+  {
+    "id": "d1",
+    "name": "Fast Logistics",
+    "type": "distributor",
+    "capacities": [
+      {
+        "type": "transport",
+        "value": 20000,
+        "unit": "kg"
+      }
+    ],
+    "pricingRules": [
+      {
+        "id": "pr4",
+        "name": "Delivery Pricing",
+        "type": "fixed",
+        "basePrice": 5
+      }
+    ],
+    "cooperativeMemberships": [],
+    "coverageArea": ["North America", "Europe"],
+    "transportCapacity": 20000
+  },
+  {
+    "id": "r1",
+    "name": "Retail Store Network",
+    "type": "retailer",
+    "capacities": [
+      {
+        "type": "shelf_space",
+        "value": 500,
+        "unit": "sqm"
+      }
+    ],
+    "pricingRules": [
+      {
+        "id": "pr5",
+        "name": "Retail Markup",
+        "type": "percentage",
+        "percentage": 30
+      }
+    ],
+    "cooperativeMemberships": [
+      {
+        "cooperativeId": "coop1",
+        "level": "primary",
+        "joinedAt": "2023-03-20"
+      }
+    ],
+    "storefront": "both",
+    "serviceArea": ["North America"]
+  }
+]

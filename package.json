@@ -1,0 +1,20 @@
+{
+  "name": "wodog",
+  "version": "1.0.0",
+  "description": "Generic supply-chain implementation for workerd",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "node --test",
+    "lint": "eslint src/**/*.ts"
+  },
+  "keywords": ["supply-chain", "workerd", "cloudflare-workers"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "typescript": "^5.3.0"
+  }
+}
