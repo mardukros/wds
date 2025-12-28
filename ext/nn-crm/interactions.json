@@ -1,0 +1,92 @@
+[
+  {
+    "id": "i1",
+    "customerId": "c1",
+    "type": "sale",
+    "channel": "portal",
+    "date": "2024-12-01",
+    "value": 50000,
+    "outcome": "won",
+    "sentiment": 0.85
+  },
+  {
+    "id": "i2",
+    "customerId": "c1",
+    "type": "support",
+    "channel": "phone",
+    "date": "2024-12-10",
+    "value": 0,
+    "outcome": "resolved",
+    "sentiment": 0.90
+  },
+  {
+    "id": "i3",
+    "customerId": "c2",
+    "type": "sale",
+    "channel": "email",
+    "date": "2024-11-15",
+    "value": 15000,
+    "outcome": "won",
+    "sentiment": 0.75
+  },
+  {
+    "id": "i4",
+    "customerId": "c3",
+    "type": "upsell",
+    "channel": "portal",
+    "date": "2024-12-05",
+    "value": 100000,
+    "outcome": "won",
+    "sentiment": 0.92
+  },
+  {
+    "id": "i5",
+    "customerId": "c4",
+    "type": "support",
+    "channel": "email",
+    "date": "2024-12-08",
+    "value": 0,
+    "outcome": "resolved",
+    "sentiment": 0.78
+  },
+  {
+    "id": "i6",
+    "customerId": "c5",
+    "type": "sale",
+    "channel": "email",
+    "date": "2024-11-20",
+    "value": 8000,
+    "outcome": "lost",
+    "sentiment": 0.45
+  },
+  {
+    "id": "i7",
+    "customerId": "c6",
+    "type": "renewal",
+    "channel": "portal",
+    "date": "2024-12-12",
+    "value": 200000,
+    "outcome": "won",
+    "sentiment": 0.95
+  },
+  {
+    "id": "i8",
+    "customerId": "c7",
+    "type": "support",
+    "channel": "chat",
+    "date": "2024-12-15",
+    "value": 0,
+    "outcome": "escalated",
+    "sentiment": 0.55
+  },
+  {
+    "id": "i9",
+    "customerId": "c8",
+    "type": "upsell",
+    "channel": "phone",
+    "date": "2024-12-03",
+    "value": 75000,
+    "outcome": "won",
+    "sentiment": 0.88
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "id": "d1",
+    "materialId": "m6",
+    "period": "2024-Q4",
+    "forecast": 450,
+    "actual": 480,
+    "variance": 30,
+    "confidence": 0.85
+  },
+  {
+    "id": "d2",
+    "materialId": "m6",
+    "period": "2025-Q1",
+    "forecast": 500,
+    "actual": null,
+    "variance": null,
+    "confidence": 0.78
+  },
+  {
+    "id": "d3",
+    "materialId": "m1",
+    "period": "2024-Q4",
+    "forecast": 4500,
+    "actual": 4200,
+    "variance": -300,
+    "confidence": 0.90
+  },
+  {
+    "id": "d4",
+    "materialId": "m1",
+    "period": "2025-Q1",
+    "forecast": 5000,
+    "actual": null,
+    "variance": null,
+    "confidence": 0.87
+  },
+  {
+    "id": "d5",
+    "materialId": "m2",
+    "period": "2024-Q4",
+    "forecast": 1800,
+    "actual": 1950,
+    "variance": 150,
+    "confidence": 0.82
+  },
+  {
+    "id": "d6",
+    "materialId": "m3",
+    "period": "2025-Q1",
+    "forecast": 1600,
+    "actual": null,
+    "variance": null,
+    "confidence": 0.75
+  }
+]
